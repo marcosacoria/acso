@@ -37,5 +37,64 @@ nav ul a {
 }
 
 .dropdown-content {
-/*	background-color: $d5d5d5;
-*/}
+	background-color: #2D2D2D;
+}
+
+nav ul li:hover {
+   background-color: #424242;
+}
+
+nav ul li ul a:hover {
+	background-color: #424242;
+
+}
+
+.intro-row {
+	padding-top: 20px;
+}
+
+.intro-row .card .card-content {
+	padding: 3px 3px 3px 20px;
+}
+
+.intro-card {
+	background-color: #2D2D2D;
+}
+
+.intro-card p {
+	color: #BADA55!important;
+}
+
+.more-button {
+	margin-top: 20px;
+	background-color: #FC6000; 
+}
+
+.describe-card {
+	background-color: #2D2D2D; 
+	color: #BADA55!important;
+}
+
+.describe-card span {
+	font-size: 17px!important;
+	font-weight: 500!important;
+	color: #BADA55!important;	
+}
+
+.describe-card p {
+	font-size: 13px!important;
+}
+
+.contact-card {
+	background-color: #2D2D2D;
+}
+
+.contact-card span {
+	color: #FC6000;
+	font-size: 30px!important;
+	font-weight: 400!important;
+}
+
+.contact-card .card-content p {
+	color: #ffffff;
+}
