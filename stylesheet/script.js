@@ -9,3 +9,5 @@ $('.dropdown-button').dropdown({
     stopPropagation: false // Stops event propagation
   }
 );
+
+$(".button-collapse").sideNav();
