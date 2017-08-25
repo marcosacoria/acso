@@ -1,0 +1,41 @@
+nav {
+	background-color: #2D2D2D;
+}
+
+body {
+	background-color: #969696;
+}
+
+.brand-logo {
+	height: 20%;
+}
+
+.acso-div {
+	margin-right: 20px;
+	padding-left: 20px; 
+}
+
+.acso-div h6{
+	font-size: 20px;
+	padding-top: 4px;
+	margin: 0 0 0 0;
+	color: #b6C416;
+}
+
+.acso-div p{
+	font-size: 15px;
+	margin: 0 0 0 0;
+	color: #ffffff;
+}
+
+nav ul a {
+	color: #FC6000;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+	color: #FC6000;
+}
+
+.dropdown-content {
+/*	background-color: $d5d5d5;
+*/}
