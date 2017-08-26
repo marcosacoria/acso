@@ -10,5 +10,8 @@ $('.dropdown-button').dropdown({
   }
 );
 
+$(document).ready(function(){
+  $('.collapsible').collapsible();
+});
 
 $(".button-collapse").sideNav();

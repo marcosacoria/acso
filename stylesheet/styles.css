@@ -98,3 +98,57 @@ nav ul li ul a:hover {
 .contact-card .card-content p {
 	color: #ffffff;
 }
+
+.side-nav {
+	background-color: #2D2D2D;
+}
+
+.collapsible {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+nav ul a:hover {
+	background-color: #292929;
+}
+
+.side-nav li>a {
+	color: #BADA55;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+	
+    border-bottom: 1px solid #BADA55;
+    -webkit-box-shadow: 0 1px 0 0 #BADA55;
+    box-shadow: 0 1px 0 0 #BADA55;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) + label {	
+    color: #BADA55;
+}
+
+input[type=email]:not(.browser-default):focus:not([readonly]) {
+	
+    border-bottom: 1px solid #BADA55;
+    -webkit-box-shadow: 0 1px 0 0 #BADA55;
+    box-shadow: 0 1px 0 0 #BADA55;
+}
+
+input[type=email]:not(.browser-default):focus:not([readonly]) + label {	
+    color: #BADA55;
+}
+
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #BADA55;
+    -webkit-box-shadow: 0 1px 0 0 #BADA55;
+    box-shadow: 0 1px 0 0 #BADA55;	
+}
+
+textarea.materialize-textarea:focus:not([readonly]) + label{
+    color: #BADA55;
+}
+
+input, textarea {
+	color: #ffffff;
+}
