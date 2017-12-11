@@ -18,5 +18,10 @@ $(".button-collapse").sideNav();
 
 $(document).ready(function(){
     $('.carousel').carousel();
-    $('.carousel.carousel-slider').carousel({fullWidth: false});
+    $('.carousel.carousel-slider').carousel({fullWidth: false, indicators: true});
+    autoplay()   
+    function autoplay() {
+        $('.carousel').carousel('next');
+        setTimeout(autoplay, 6000);
+    }    
 });
