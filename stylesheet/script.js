@@ -15,3 +15,8 @@ $(document).ready(function(){
 });
 
 $(".button-collapse").sideNav();
+
+$(document).ready(function(){
+    $('.carousel').carousel();
+    $('.carousel.carousel-slider').carousel({fullWidth: false});
+});
